@@ -1,6 +1,5 @@
 # sprint-starter
-Timer for sprinters
-Purpose: As a high school sprinter, I was tired of needing two other people just to time one of my 100 or 200 meters. My idea for this app was to allow athletes to time themselves while still utilizing the 4 point start (traditional timers either start immediately, or countdown from 3, neither of which are particularly useful for sprinters from a 4 point stance)
+Purpose: As a high school sprinter, I was tired of needing two other people just to time one of my 100 or 200 meters. Traditional timers either start immediately, which prevents sprinters from utilizing a 4 point stance, or countdown from 3, which gives an unfair advantage in timing as sprinters will be able to anticipate the start. This WatchOS app seeks to solve this problem. 
 
 Considerations: 
 1) Made the stop button the entire screen. Thus, when running, users can tap anywhere to stop. Reduces the chances of missing the button as crossing the finishline. 
