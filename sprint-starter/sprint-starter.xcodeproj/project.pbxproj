@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAA4FB4F2978EF53004FD59C /* sprint-starter Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CAA4FB4E2978EF53004FD59C /* sprint-starter Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CAA4FB542978EF53004FD59C /* sprint_starterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA4FB532978EF53004FD59C /* sprint_starterApp.swift */; };
+		CAA4FB562978EF53004FD59C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA4FB552978EF53004FD59C /* ContentView.swift */; };
+		CAA4FB582978EF54004FD59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA4FB572978EF54004FD59C /* Assets.xcassets */; };
+		CAA4FB5B2978EF54004FD59C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA4FB5A2978EF54004FD59C /* Preview Assets.xcassets */; };
+		CAA4FB6D297B63D0004FD59C /* longerGun 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CAA4FB6C297B63D0004FD59C /* longerGun 2.mp3 */; };
+		CAA4FB6F297B6622004FD59C /* louderGun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CAA4FB6E297B6622004FD59C /* louderGun.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAA4FB502978EF53004FD59C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAA4FB422978EF53004FD59C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA4FB4D2978EF53004FD59C;
+			remoteInfo = "sprint-starter Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAA4FB612978EF54004FD59C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CAA4FB4F2978EF53004FD59C /* sprint-starter Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CAA4FB482978EF53004FD59C /* sprint-starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sprint-starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA4FB4E2978EF53004FD59C /* sprint-starter Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sprint-starter Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA4FB532978EF53004FD59C /* sprint_starterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sprint_starterApp.swift; sourceTree = "<group>"; };
+		CAA4FB552978EF53004FD59C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAA4FB572978EF54004FD59C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAA4FB5A2978EF54004FD59C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAA4FB67297B5AF4004FD59C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CAA4FB6C297B63D0004FD59C /* longerGun 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "longerGun 2.mp3"; sourceTree = "<group>"; };
+		CAA4FB6E297B6622004FD59C /* louderGun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = louderGun.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAA4FB4B2978EF53004FD59C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAA4FB412978EF53004FD59C = {
+			isa = PBXGroup;
+			children = (
+				CAA4FB522978EF53004FD59C /* sprint-starter Watch App */,
+				CAA4FB492978EF53004FD59C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAA4FB492978EF53004FD59C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAA4FB482978EF53004FD59C /* sprint-starter.app */,
+				CAA4FB4E2978EF53004FD59C /* sprint-starter Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAA4FB522978EF53004FD59C /* sprint-starter Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				CAA4FB532978EF53004FD59C /* sprint_starterApp.swift */,
+				CAA4FB6E297B6622004FD59C /* louderGun.mp3 */,
+				CAA4FB552978EF53004FD59C /* ContentView.swift */,
+				CAA4FB6C297B63D0004FD59C /* longerGun 2.mp3 */,
+				CAA4FB67297B5AF4004FD59C /* README.md */,
+				CAA4FB572978EF54004FD59C /* Assets.xcassets */,
+				CAA4FB592978EF54004FD59C /* Preview Content */,
+			);
+			path = "sprint-starter Watch App";
+			sourceTree = "<group>";
+		};
+		CAA4FB592978EF54004FD59C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAA4FB5A2978EF54004FD59C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAA4FB472978EF53004FD59C /* sprint-starter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA4FB622978EF54004FD59C /* Build configuration list for PBXNativeTarget "sprint-starter" */;
+			buildPhases = (
+				CAA4FB462978EF53004FD59C /* Resources */,
+				CAA4FB612978EF54004FD59C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAA4FB512978EF53004FD59C /* PBXTargetDependency */,
+			);
+			name = "sprint-starter";
+			productName = "sprint-starter";
+			productReference = CAA4FB482978EF53004FD59C /* sprint-starter.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		CAA4FB4D2978EF53004FD59C /* sprint-starter Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA4FB5E2978EF54004FD59C /* Build configuration list for PBXNativeTarget "sprint-starter Watch App" */;
+			buildPhases = (
+				CAA4FB4A2978EF53004FD59C /* Sources */,
+				CAA4FB4B2978EF53004FD59C /* Frameworks */,
+				CAA4FB4C2978EF53004FD59C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sprint-starter Watch App";
+			productName = "sprint-starter Watch App";
+			productReference = CAA4FB4E2978EF53004FD59C /* sprint-starter Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAA4FB422978EF53004FD59C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CAA4FB472978EF53004FD59C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CAA4FB4D2978EF53004FD59C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CAA4FB452978EF53004FD59C /* Build configuration list for PBXProject "sprint-starter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAA4FB412978EF53004FD59C;
+			productRefGroup = CAA4FB492978EF53004FD59C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAA4FB472978EF53004FD59C /* sprint-starter */,
+				CAA4FB4D2978EF53004FD59C /* sprint-starter Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAA4FB462978EF53004FD59C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA4FB4C2978EF53004FD59C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA4FB6F297B6622004FD59C /* louderGun.mp3 in Resources */,
+				CAA4FB6D297B63D0004FD59C /* longerGun 2.mp3 in Resources */,
+				CAA4FB5B2978EF54004FD59C /* Preview Assets.xcassets in Resources */,
+				CAA4FB582978EF54004FD59C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAA4FB4A2978EF53004FD59C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA4FB562978EF53004FD59C /* ContentView.swift in Sources */,
+				CAA4FB542978EF53004FD59C /* sprint_starterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAA4FB512978EF53004FD59C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAA4FB4D2978EF53004FD59C /* sprint-starter Watch App */;
+			targetProxy = CAA4FB502978EF53004FD59C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CAA4FB5C2978EF54004FD59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAA4FB5D2978EF54004FD59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CAA4FB5F2978EF54004FD59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sprint-starter Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = X257B48QW3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "sprint-starter";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YH.sprint-starter.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		CAA4FB602978EF54004FD59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sprint-starter Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = X257B48QW3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "sprint-starter";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YH.sprint-starter.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		CAA4FB632978EF54004FD59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X257B48QW3;
+				INFOPLIST_KEY_CFBundleDisplayName = "sprint-starter";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YH.sprint-starter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CAA4FB642978EF54004FD59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X257B48QW3;
+				INFOPLIST_KEY_CFBundleDisplayName = "sprint-starter";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YH.sprint-starter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAA4FB452978EF53004FD59C /* Build configuration list for PBXProject "sprint-starter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA4FB5C2978EF54004FD59C /* Debug */,
+				CAA4FB5D2978EF54004FD59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAA4FB5E2978EF54004FD59C /* Build configuration list for PBXNativeTarget "sprint-starter Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA4FB5F2978EF54004FD59C /* Debug */,
+				CAA4FB602978EF54004FD59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAA4FB622978EF54004FD59C /* Build configuration list for PBXNativeTarget "sprint-starter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA4FB632978EF54004FD59C /* Debug */,
+				CAA4FB642978EF54004FD59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAA4FB422978EF53004FD59C /* Project object */;
+}
